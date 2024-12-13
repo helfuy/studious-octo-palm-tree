@@ -1,0 +1,29 @@
+*{
+    margin: 0px; 
+    padding: 0px;
+    box-sizing: border-box;
+    border: 1px solid black
+}
+
+body{
+    background-color: rgb(180, 180, 180);
+}
+
+.wrap{
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    padding: 20px;
+    &__info{
+        & a{
+            text-decoration: none;
+            justify-content: space-between;
+            color: black;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding: 10px;
+        }
+    }
+}

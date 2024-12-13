@@ -1,0 +1,183 @@
+*{ 
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box; 
+    border: 1px solid; 
+} 
+ 
+header, .first-section, .second-section,  
+.third-section, .fourth-section, footer,  
+.header-wrap, .logo-nav, .header-icons,  
+nav, .header-icons a, .header-section,  
+.header-section-content, .bestsellers, .products,  
+.third-section-content, .third-section-photos,  
+.third-section-text{ 
+    display: flex; 
+    align-items: center; 
+} 
+ 
+.content-second-section{ 
+    display: flex; 
+} 
+ 
+header, .header-section-content, .first-section,  
+.content-second-section, .third-section-photos,  
+.third-section-text{ 
+    flex-direction: column; 
+} 
+ 
+.header-wrap, .logo-nav, .header-section, .first-section,  
+.bestsellers{ 
+    justify-content: space-between; 
+} 
+ 
+.first-section, .second-section{ 
+    justify-content: center; 
+    gap: 50px; 
+} 
+ 
+.third-section-content, .third-section-text{ 
+    gap: 90px; 
+} 
+ 
+.products{ 
+    justify-content: space-around; 
+} 
+ 
+.header-wrap{ 
+    padding: 10px 0px 10px 0px; 
+} 
+ 
+.header-wrap, .header-section, .bestsellers, .products,  
+.second-section-content, .third-section-content{ 
+    width: 70vw; 
+} 
+ 
+.logo-nav{ 
+    width: 50%; 
+} 
+ 
+.header-icons{ 
+    gap: 15px; 
+} 
+ 
+.logo-nav, nav, .third-section-photos{ 
+    gap: 30px; 
+} 
+ 
+.header-section-content, .content-second-section{ 
+    gap: 50px; 
+    width: 50%; 
+} 
+ 
+.logo-nav, nav a{ 
+    text-decoration: none; 
+    color:rgb(0, 0, 0); 
+    font-size: 1.05em; 
+} 
+ 
+header, .first-section, .third-section{ 
+    height: 90vh; 
+} 
+ 
+.second-section{ 
+    height: 50vh; 
+    background-image: url("../media/8.png"); 
+    background-position: 50% 65%; 
+} 
+ 
+.fourth-section{ 
+    height: 80vh; 
+} 
+ 
+footer{ 
+    height: 10vh; 
+} 
+ 
+header, .third-section{ 
+    background-image: url("../media/gradient.png"); 
+    background-position: center; 
+} 
+ 
+header, .third-section, .second-section{ 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+} 
+ 
+.header-section-content a, .second-section-content a,  
+.third-section-text a{ 
+    align-self: center; 
+    text-decoration: none; 
+    color: white; 
+    background: black; 
+    padding: 10px 30px; 
+    font-size: 1.1em; 
+    border-radius: 20px; 
+} 
+ 
+.bestsellers a{ 
+    font-size: 1.3em; 
+    color: black; 
+} 
+ 
+.title{ 
+    font-size: 1.5em; 
+    padding: 10px 0px; 
+} 
+ 
+.name{ 
+    font-size: 1.5em; 
+} 
+ 
+.price{ 
+    font-size: 1.2em; 
+    padding: 10px 0px; 
+} 
+ 
+.header-section, .third-section-content{ 
+    margin: auto; 
+}
+
+.third-section-text h2, .third-section-text p{
+    text-align: center;
+}
+
+.second-section-content div, .content-second-section h2{
+    text-align: center;
+}
+
+.fourth-section-content{ 
+    margin: auto; 
+    width: 70vw; 
+    justify-content: center; 
+    gap: 50px; 
+    display: flex; 
+    align-items: center; 
+} 
+ 
+.fourth-section-icons{ 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around; 
+    height: 412px; 
+} 
+ 
+.fourth-section-icon{ 
+    display: flex; 
+    align-items: center; 
+    gap: 8px; 
+}
+
+.footer-elements{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 70vw; 
+    margin: auto; 
+} 
+ 
+.footer-elements a{ 
+    text-decoration: none; 
+    color:rgb(0, 0, 0); 
+    font-size: 1.05em; 
+}
